@@ -19,13 +19,13 @@ The quotes are organized by domain
 #### Requirements
 - Python 3.7 or higher.
 
-#### - Install pipenv
+#### Install pipenv
 
 ```Python
     pip install pipenv
 ```
 
-#### - Install requirements
+#### Install requirements
 ```Python
     cd satoshi_quotes/
 ```
