@@ -11,7 +11,7 @@
 
 This is a python crawler that scrape satoshi nakamoto quotes from https://satoshi.nakamotoinstitute.org/quotes/   
     
-Satoshi is the emblematic creator (creators) of the bitcoin
+Satoshi is the emblematic creator (creators) of bitcoin
     
 The quotes are organized by domain
     
