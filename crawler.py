@@ -36,5 +36,7 @@ with open('quotes.txt', mode='wt', encoding='utf-8') as myfile:
     myfile.write(str(quotes_metadata))
 
 df = pd.DataFrame(quotes_metadata)
+# Let's do some preprocessing
+df['date'] = df['date'].map(lambda x:x.replace(' - Link','')) # remove some text added from scraping
 
 df.to_csv('satoshi_quotes.csv')
