@@ -35,5 +35,7 @@ The quotes are organized by domain
 ```Python
     pipenv install
 ```
-## Usage
-Explore the CSV generated 
+## In a terminal
+```shell
+    python satoshi_quotes/crawler.py
+```
